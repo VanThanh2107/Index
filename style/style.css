@@ -1,0 +1,74 @@
+.header{
+    background-color: white;
+    padding: 50px 30px;
+}
+.container{
+    max-width: 960px;
+    margin: 0 180px;
+}
+input{
+    background-color: white;
+    padding: 6px 12px;
+}
+.form{
+    flex: 1 1 auto;
+}
+h1{
+    text-transform: uppercase;
+    font-size: large;
+}
+h2{
+    color: red;
+    font-size: large;
+}
+
+.main-menu{
+    background-color: #0578D4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul{
+    display: flex;
+    list-style: none;
+}
+.main-menu li{
+    position: relative;
+}
+.main-menu li a{
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.submenu{
+    display: none;
+}
+.submenu li a{
+    padding: 0;
+    color: black;
+}
+
+.main-menu ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: #0578D4;
+}
+.main-menu ul li:hover .submenu ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul li:hover .submenu ul li{
+    width: 220px;
+    text-align: left;
+    border-bottom: dotted 1px white;
+    background: transparent;
+    border-radius: 0;
+    margin: 10px;
+}
+
+.submenu li a{
+    color: black;
+}
